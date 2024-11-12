@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Active URL Reminder",
+    "description": "An extension to remind you to read daily at 5:30 PM",
+    "version": "1.0",
+    "permissions": [
+      "notifications",
+      "alarms",
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": "aa.avif"
+    }
+  }
+  
